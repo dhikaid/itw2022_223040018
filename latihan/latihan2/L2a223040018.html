@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- TABEL LIGHT BLUE -->
+    <p><b>TABEL</b></p>
+    <table border="1" bgcolor="lightblue" cellpadding="5">
+      <tr>
+        <th colspan="6">Data Mahasiswa</th>
+      </tr>
+      <tr>
+        <th rowspan="2">No.</th>
+        <th rowspan="2">NRP</th>
+        <th rowspan="1" colspan="2">Nama</th>
+        <th rowspan="2">Alamat</th>
+        <th rowspan="2">No. HP</th>
+      </tr>
+      <tr>
+        <th>Nama Depan</th>
+        <th>Nama Belakang</th>
+      </tr>
+      <!-- DATA PERTAMA -->
+      <tr>
+        <td>1.</td>
+        <td>113040001</td>
+        <td>Asep</td>
+        <td>Setia</td>
+        <td>Setiabudhi</td>
+        <td>081234567890</td>
+      </tr>
+      <!-- DATA KEDUA -->
+      <tr>
+        <td rowspan="2">2.</td>
+        <td rowspan="2">113040011</td>
+        <td rowspan="2">Dani</td>
+        <td rowspan="2">Gunawan</td>
+        <td rowspan="2">Lembang</td>
+        <td rowspan="1">089038131212</td>
+      </tr>
+      <tr>
+        <td>081392482222</td>
+      </tr>
+    </table>
+    <br />
+    <!-- FORM -->
+    <p><b>FORM</b></p>
+    <form>
+      First Name:
+      <input type="text" name="firstname" />
+      <br />
+      Last Name:
+      <input type="text" name="lastname" />
+    </form>
+    <br />
+    <!-- FORM : PASSWORD -->
+    <p><b>FORM : PASSWORD</b></p>
+    <form>
+      Username:
+      <input type="text" name="username" />
+      <br />
+      Password:
+      <input type="password" name="password" />
+    </form>
+    <br />
+    <!-- RADIO BUTTON -->
+    <p><b>RADIO BUTTON</b></p>
+    <form>
+      Jenis Kelamin:
+      <br />
+      <input type="radio" name="jenisKel" value="pria" /> Pria
+      <br />
+      <input type="radio" name="jenisKel" value="wanita" /> Wanita
+    </form>
+    <br />
+    <!-- LIST BOX -->
+    <p><b>LIST BOX</b></p>
+    <select>
+      <option name="kendaraan" selected>--Pilih Kendaraan--</option>
+      <option value="sepeda">Sepeda</option>
+      <option value="motor">Motor</option>
+      <option value="mobil">Mobil</option>
+      <option value="Pesawat">Pesawat Terbang</option>
+    </select>
+    <br />
+    <!-- CHECK BOX -->
+    <p><b>CHECK BOX</b></p>
+    <form>
+      Kendaraan yang dimiliki:
+      <br />
+      Sepeda:
+      <input type="checkbox" name="vehicle" value="sepeda" />
+      <br />
+      Motor:
+      <input type="checkbox" name="vehicle" value="motor" />
+      <br />
+      Mobil:
+      <input type="checkbox" name="vehicle" value="mobil" />
+      <br />
+      Pesawat Terbang:
+      <input type="checkbox" name="vehicle" value="pesawat" />
+    </form>
+    <br />
+    <!-- TEXT AREA -->
+    <p><b>TEXT AREA</b></p>
+    <form>
+      Tuliskan Komentar Anda :
+      <br />
+      <textarea name="komentar" cols="50" rows="3">
+Sekarang saya sedang mempelajari topik HTML lanjut pada kuliah Pemograman Web</textarea
+      >
+    </form>
+    <br />
+    <!-- TOMBOL SUBMIT DAN RESET -->
+    <p><b>TOMBOL SUBMIT DAN RESET</b></p>
+    <form>
+      <input type="submit" name="submit" value="submit" />
+      <input type="reset" name="reset" value="reset" />
+    </form>
+  </body>
+</html>
