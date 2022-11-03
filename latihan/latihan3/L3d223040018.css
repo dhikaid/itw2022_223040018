@@ -1,0 +1,43 @@
+body {
+  background-image: url("img/background.png");
+  font-family: Georgia;
+  background-size: contain;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Comic Sans MS";
+  font-size: 60px;
+  color: darkblue;
+}
+
+h4 {
+  font-style: italic;
+}
+
+/* p {
+  text-align: justify;
+} */
+
+/* class */
+.username {
+  color: #dcfdfb;
+}
+
+.username:hover {
+  color: red;
+}
+
+.paragraf1 {
+  color: orange;
+  text-align: center;
+}
+
+.paragraf2 {
+  text-align: right;
+}
+
+.mark-facebook:hover {
+  background-color: blue;
+  color: white;
+}
