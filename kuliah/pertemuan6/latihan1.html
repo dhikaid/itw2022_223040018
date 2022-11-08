@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Layouting</title>
+
+    <!-- css tag -->
+    <style>
+      /* html {
+        width: 100%;
+        background-color: #333;
+      }
+
+      body {
+        background-color: lightgreen;
+        width: 80%;
+      } */
+
+      /* * bintang artinya semua !BARBAR! */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        /* display bisa diatur, dan memenuhi halaman */
+        color: red;
+        background-color: lightblue;
+        /* width: 200px;
+        height: 200px; */
+      }
+
+      a {
+        /* display tak bisa diatur, dan tak memenuhi halaman */
+        background-color: salmon;
+        width: 120px;
+        /* properti ini untuk mengatur display inline ke block */
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+      }
+
+      .kotak1 {
+        background-color: lightblue;
+        /* dimensi (FIX = px ,pt=ukuran font, cm, mm, pc | relativ : percent, em = 1 : 16px relatif terhadap font size body | vw/vh = terhadap layar , ) */
+        width: 100px;
+        height: 100px;
+        /* tumpah = overflow */
+        overflow: hidden;
+      }
+
+      .kotak2 {
+        width: 100px;
+        height: 100px;
+        background-color: salmon;
+        /* margin area transparant di area kotak */
+        /* searah jarum jam */
+        /* auto kiri kanan saja */
+        margin: 20px auto 10px;
+        /* margin-left: -70px; */
+        /* margin-top: -100px; */
+        /* padding area transparant di dalam elemnt */
+        /* padding mempengaruhi element */
+        padding: 10px 20px 30px 40px;
+        /* border area yang membatasi margin dan padding disekliling kotak */
+        border-top: 5px solid royalblue;
+        border-left: 5px dashed lightblue;
+        border-right: 5px dotted gold;
+        border-bottom: 5px dashed black;
+        /* jika ingin menyesuai kan hitung dan dikurangi atau box sizing */
+        box-sizing: border-box;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Halo ITW</h1>
+    <a href="">Home</a>
+    <a href="">About</a>
+    <a href="">Services</a>
+    <a href="">Project</a>
+    <a href="">Contact</a>
+
+    <div class="kotak1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+      voluptas ea dolorum impedit eius sequi magni ab commodi recusandae dolores
+      possimus asperiores magnam doloremque quia, aspernatur nihil non
+      voluptatibus veniam cum hic autem alias? Suscipit possimus amet iste
+      temporibus alias necessitatibus, sequi harum maiores eligendi ex
+      reiciendis, sit vel doloremque sapiente omnis. Non sed repellat odio sequi
+      alias numquam architecto dolorum quaerat expedita esse. Similique
+      accusamus obcaecati aliquam expedita harum dignissimos, illum nulla,
+      molestiae quam et quibusdam temporibus quo sint, mollitia quas id hic? At
+      in soluta enim dolore! Illo dolor eaque vel natus molestiae in eveniet
+      quas repellat explicabo?
+    </div>
+    <div class="kotak2">Lorem ipsum dolor sit amet.</div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, a ad
+      eveniet neque ut reiciendis doloribus. Amet iure consectetur voluptatibus
+      porro eum est blanditiis reiciendis at voluptatum nostrum cumque saepe,
+      doloremque expedita aliquam deleniti itaque adipisci ipsam? Laboriosam
+      eligendi qui rerum ullam aspernatur vitae dolores repellendus ratione quam
+      minima, eveniet delectus ipsam voluptatem! Distinctio eveniet, inventore
+      dignissimos impedit odio voluptatem beatae excepturi dicta itaque a
+      laborum. Iusto fugit eligendi aliquam molestias aperiam, neque nostrum
+      libero nobis voluptatem id officia? Animi, doloribus! Veritatis recusandae
+      hic, quasi architecto molestiae, repellendus, modi neque quod perferendis
+      nihil explicabo commodi. Molestias aspernatur libero et ratione.
+    </p>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: #202124;
+  background-image: url(img/y-so-serious.png);
+  color: #333;
+}
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: #202124;
+  /* modified */
+  border-radius: 20px;
+  color: whitesmoke;
+}
+
+.header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.header .judul {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* modified */
+.bagian-hero ul li {
+  display: inline-block;
+  /* margin-top: 20px; */
+  margin-right: 10px;
+}
+
+/* modified */
+.bagian-hero a {
+  text-decoration: none;
+  color: #202124;
+}
+
+/* .header a:hover {
+  background-color: lightskyblue;
+  color: white;
+} */
+
+.hero {
+  height: 280px;
+  background-image: url(img/herointernet.jpg);
+  background-size: cover;
+  background-position: 0 -180px;
+  border-bottom: 5px solid #8ab4f8;
+  border-top: 5px solid white;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.content .penulis {
+  font-size: 11px;
+  margin-top: -5px;
+}
+
+.content .penulis a {
+  color: salmon;
+  text-decoration: none;
+}
+
+.content p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.footer {
+  background-color: #333;
+  padding: 10px;
+  /* modified */
+  border-end-start-radius: 20px;
+  border-end-end-radius: 20px;
+}
+
+.footer .copy {
+  color: #eaeaea;
+  text-align: center;
+  font-size: 12px;
+}
+
+/* modif */
+.bagian-hero ul {
+  margin-bottom: 0;
+  padding: 10px 24px;
+  background-color: #8ab4f8;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.bagian-hero ul li a {
+  transition: 1s;
+}
+
+.bagian-hero ul li a:hover {
+  background-color: #202124;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.bungkus-gambar {
+  padding: 10px;
+  text-align: center;
+  background-color: #323335;
+  border-radius: 10px;
+}
+
+.bungkus-gambar a {
+  text-decoration: none;
+  color: white;
+}
+
+.bungkus-gambar p {
+  margin: 0px;
+}
+
+.bungkus-gambar img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.sumber a {
+  text-decoration: none;
+  color: white;
+}
+
+.penulis-blog img {
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.detail-penulis {
+  text-align: center;
+}
+
+.penulis-blog p {
+  margin: 0;
+}
+
+.penulis-blog p a {
+  text-decoration: none;
+  color: rgb(208, 195, 195);
+}
+
+.penulis-blog {
+  margin-right: 80%;
+  background-color: #323335;
+  border-radius: 10px;
+}
