@@ -296,3 +296,9 @@ body {
   border-radius: 10px;
   padding: 10px;
 }
+
+/* modified i */
+
+i {
+  font-style: italic;
+}
