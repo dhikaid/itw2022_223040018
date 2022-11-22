@@ -1,0 +1,225 @@
+/* confirgurasi font */
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/montserrat.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat Reguler";
+  src: url(../fonts/montserrat1.woff) format("woff");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font: 18px/36px "Montserrat", "Arial Narrow", arial, sans-serif;
+  color: white;
+  background-color: #202124;
+  /* height: 5000px; */
+}
+
+.font-judul {
+  font: 18px/36px "Montserrat", "Arial Narrow", arial, sans-serif;
+}
+
+.judul-gede {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.desk-kecil {
+  font-size: 15px !important;
+}
+
+.font-kecil {
+  font: 18px/36px "Montserrat Reguler", "Arial Narrow", arial, sans-serif;
+}
+
+.jumbotron {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  height: 400px;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+.navbar {
+  background-color: #4e5054;
+  /* border */
+  border-radius: 0 0 30px 30px;
+  /* box-shadow: 0 0 50px 10px #ffffff;
+  animation: gradientWarna 10s;
+  animation-iteration-count: infinite; */
+  text-align: center;
+}
+
+.navbar img {
+  width: 150px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.content {
+  margin-top: 100px;
+  float: left;
+}
+
+.content h2 {
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.content h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  text-shadow: 0 0 10px black;
+  animation: gradientWarna 5s;
+  animation-iteration-count: infinite;
+}
+
+.content a {
+  text-decoration: none;
+  color: white;
+  background-color: #4e5054;
+  /* border */
+  border-radius: 50px;
+  padding: 5px 10px;
+  /* animation: BoxGradientWarna 10s;
+  animation-iteration-count: infinite; */
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.content a:hover {
+  opacity: 1;
+}
+
+.about {
+  margin-top: 80px;
+}
+
+i {
+  font-style: italic;
+}
+
+/* .box-random-1 {
+  width: 150px;
+  height: 150px;
+  background-color: #4e5054;
+  transform: rotate(30deg);
+  overflow: hidden;
+  position: relative;
+  bottom: 150px;
+  left: 100px;
+  background-image: url(../img/img1.jpg);
+  background-size: cover;
+  opacity: 0.5;
+} */
+
+.artist {
+  margin-top: 80px;
+}
+
+.artist li {
+  float: left;
+}
+
+.kotak-artist {
+  background-color: #4e5054;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.kotak-artist .artist-img {
+  width: 150px;
+  transition: 1s;
+}
+
+.kotak-artist:hover .artist-img {
+  transform: scale(2);
+  animation: BoxGradientWarna 10s;
+  animation-iteration-count: infinite;
+}
+
+.kotak-artist .verified {
+  width: 11px;
+  padding-left: 4px;
+}
+
+.kotak-ticket {
+  width: 100%;
+  height: 250px;
+  background-color: #4e5054;
+  margin-top: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.ticket img {
+  border-radius: 10px;
+  width: 260px;
+  float: left;
+  padding-right: 10px;
+}
+
+.content-ticket {
+  padding: 50px 0;
+}
+
+.content-ticket p {
+  font-size: 15px;
+}
+
+.content-ticket a {
+  font-size: 12px;
+  background-color: #202124;
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 10px !important;
+  transition: 1s;
+}
+
+.content-ticket a:hover {
+  background-color: #1bff41;
+  color: black;
+}
+
+/* animasi */
+@keyframes gradientWarna {
+  0% {
+    text-shadow: 0 0 10px #ffffff;
+  }
+  25% {
+    text-shadow: 0 0 10px #ff821b;
+  }
+  50% {
+    text-shadow: 0 0 10px #1bff41;
+  }
+  100% {
+    text-shadow: 0 0 10px #ffffff;
+  }
+}
+
+@keyframes BoxGradientWarna {
+  0% {
+    box-shadow: 0 0 20px 5px #4e5054;
+  }
+  25% {
+    box-shadow: 0 0 20px 5px #ff821b;
+  }
+  50% {
+    box-shadow: 0 0 20px 5px #024f0f;
+  }
+  100% {
+    box-shadow: 0 0 20px 5px #ffffff;
+  }
+}

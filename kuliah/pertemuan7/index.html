@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- style -->
+    <style>
+      body {
+        height: 2000px;
+      }
+      .kotak1 {
+        /* emmet w150 enter */
+        width: 150px;
+        height: 150px;
+        /* alpha channel jiga bg nya aja transparant */
+        background-color: rgba(50, 51, 53, 0.5);
+        /* margin auto kiri kanan nya auto */
+        margin: auto;
+        border-radius: 0 75px 75px 0;
+        overflow: hidden;
+        /* OPACITY apapun yang didalam elemennt nya pasti transparant */
+        opacity: 1;
+        z-index: 999;
+        position: relative;
+      }
+
+      p {
+        margin-top: -76px;
+        position: relative;
+      }
+
+      .kotak2 {
+        width: 200px;
+        height: 200px;
+        background-color: lightblue;
+        margin: auto;
+        /* [] = optional */
+        /* box shaddow : [inset] x-offset y-offset blur [size]  warna */
+        /* inset = bayangan didalam element */
+        /* nambah dlu 5px baru blur 10px */
+        /* jangna lupa global light cahaya satu sumber datannya */
+        box-shadow: 10px 15px 10px 5px red, -10px -10px 10px blue,
+          10px -10px 10px orange;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 100px;
+        font-family: Arial;
+        font-size: 100px;
+        color: white;
+        /* text shadow gada nilai instant */
+        text-shadow: 1px 2px 0px red;
+      }
+
+      .kotak3 {
+        width: 200px;
+        height: 200px;
+        background-color: salmon;
+        margin: auto;
+        /* 
+        Translate = perubahan posisi (TranslateX || Translate Y) tak akan meganggu element lain
+        Scale = perubahan ukuran
+        Skew = membuat elemen miring (deg) (skewy skewx)
+        Rotate = muter (deg) searah jarum jam
+        */
+        /* line height = tinggin box */
+        font-size: 50px;
+        text-align: center;
+        line-height: 200px;
+        /* kasih dikeadaan awal
+        transition : detik [properti css]
+        trasition : detik [delay]
+        */
+        transition: 3s 4s transform, 4s border-radius, 2s background-color,
+          5s color, 6s font-size;
+      }
+
+      /* :active hanya untuk di tahan kliknya */
+      .kotak3:hover {
+        transform: rotate(720deg);
+        background-color: gray;
+        border-radius: 50%;
+        font-size: 200px;
+        color: lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak1">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta,
+      necessitatibus!
+    </div>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
+      distinctio modi nisi harum, nulla eaque. Maxime iusto quas quaerat
+      provident incidunt voluptatibus pariatur culpa iure, tenetur dicta magni
+      quibusdam hic itaque! Alias soluta consequatur quo aliquam magni
+      aspernatur fugit ipsam molestiae totam quas suscipit quaerat placeat,
+      similique nam hic porro.
+    </p>
+
+    <div class="kotak2"></div>
+
+    <h1>Bhadrika Aryaputra</h1>
+
+    <div class="kotak3">1</div>
+  </body>
+</html>
